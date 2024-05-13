@@ -14,4 +14,4 @@ jobs:
           dotnet-version: '8.0.x'
       - run: npm install -g bats
       - run: bats -v
-      - run: dotnet build .TestSyp/TestSyp/TestSyp.csproj
+      - run: dotnet build TestSyp/TestSyp/TestSyp.csproj
